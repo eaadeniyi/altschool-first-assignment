@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="100*100" href="images/icons8-super-mario-100.png">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500&family=Lora:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/line-awesome.min.css">
+    <link rel="stylesheet" href="fonts/la-brands-400.ttf">
+</head>
+<body>
+    
+    <header id="main-header">
+        <h2>EAA</h2>
+        <nav>
+          <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <!-- <li>
+                <a href="index.html/#contact">Contact</a>
+            </li> -->
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <!-- <li>
+              <a href="">Register</a>
+            </li> -->
+          </ul>
+        </nav>
+    </header>
+
+    <div class="registerform">
+      <form action="">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required><br>
+            <option value=""></option><br>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" required><br>
+        <label for="state">State (Province):</label><br>
+        <input type="text" id="state" name="state" required><br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="uname" name="uname" required><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <label for="pwd">Confirm Password:</label><br>
+        <input type="password" id="cpwd" name="cpwd"><br>
+        <button type="submit">Register</button>
+    </form>
+    </div>
+    
+
+</body>
+</html>

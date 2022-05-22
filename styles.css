@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the index Page */
+
+#main-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    position: sticky;
+    top:0;
+    background-color:rgba(235, 237, 236, 0.751);
+}
+
+#main-header h2{
+    font-size: 40px;
+    font-weight: 800;
+    color:rgb(5, 68, 44);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-header ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-header ul li{
+    display: inline;
+    margin: 5px 10px;
+    padding: 10px;
+    background-color: #2c0544;
+    border-radius: 200px;
+}
+
+#main-header nav a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0 20px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+#main-header nav a:hover {    
+    color: white;
+}
+
+#main-header nav li:hover{
+    background-color: #0b9963;
+}
+
+#main-content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    letter-spacing: 1.0px;
+    margin: 30px;
+}
+
+#main-content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:rgb(5, 68, 44);
+}
+
+#main-content h3{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #44051d;
+}
+
+#main-text p{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2.0rem;
+    color: #44051d;
+    text-align: justify;
+}
+
+#main-content img{
+    width: 240px;
+    height: auto;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border: 5px solid rgb(5, 68, 44);
+}
+
+#main-text {
+    width:40%;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 4.0rem;
+    font-family:'Montserrat', sans-serif;
+}
+
+#contact h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+input{
+    width: 700px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Hind Madurai',sans-serif;
+    font-weight: 500;
+}
+
+label{
+    font-family: 'Montserrat',sans-serif;
+}
+
+.contactform select{
+    width: 700px;
+    height: 45px;
+}
+
+button[type=submit] {
+    background-color: #2c0544;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    border: none;
+    border-radius: 40px;
+    width: 700px;
+    height: 45px;
+}
+
+button[type=submit]:hover{
+    background-color: #4e1372;
+}
+
+#socialink p{
+    display: inline;
+    position: relative;
+    left: 15%;
+    justify-content: space-between;
+}
+
+i{
+    font-size: 30px;
+    color: rgb(4, 52, 34);
+}
+
+/* End of Styling the Index Page */
+
+/* Styling the Register Page */
+
+.registerform{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.registerform input,label,select{
+    margin: 10px;
+}
+
+.registerform select{
+    width: 700px;
+    height: 45px;
+}
+/* End of Styling the Register Page */
+button{
+    margin-top: 15px;
+}
+/* Styling the Login Page */
+
+.loginform{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0 20%;
+    flex-direction: column;
+    line-height: 2.0rem;
+}
+
+.loginform h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size: 35px;
+}
